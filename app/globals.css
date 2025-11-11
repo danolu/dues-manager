@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --color-accent: #0b6cf0;
+  --color-background: #f6f8fb;
+  --color-card: #ffffff;
+  --color-line: #d8dee8;
+  --color-text: #14213d;
+}
+
+@layer base {
+  body {
+    @apply bg-background text-text font-sans antialiased;
+    background: linear-gradient(145deg, #f8fafc, #eef3fb);
+  }
+}
